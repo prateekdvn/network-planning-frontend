@@ -1,0 +1,35 @@
+.side-bar {
+    position: absolute;
+    left: 0;
+    top: 87px;
+    overflow-y: scroll;
+    min-width: 250px;
+    max-width: 350px;
+    height: 475px;
+    color: aqua;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 5px,10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    transition: left 0.3s ease-in-out, transform 0.3s ease-in-out;
+    &::-webkit-scrollbar {
+        width: 0.5em;
+        height: 0.5em;
+       }
+     
+       &::-webkit-scrollbar-thumb {
+        background-color: rgb(0, 0, 0);
+        border-radius: 3px;
+     
+        &:hover {
+         background: rgb(0, 0, 0);
+        }
+       }
+  }
+
+  .side-bar.close{
+    width: 0;
+    display: none;
+  }
