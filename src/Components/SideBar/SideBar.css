@@ -1,5 +1,5 @@
 .side-bar {
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 87px;
     overflow-y: scroll;
@@ -33,3 +33,26 @@
     width: 0;
     display: none;
   }
+
+  .sidebar-paper{
+    padding: 1;
+    margin-bottom: 3;
+    height: 150;
+  }
+
+  .office-selection-typography, .location-selection-typography, .layer-selection-typography{
+    position: absolute;
+  }
+
+  .location-selection-box{
+    padding: 1;
+    margin-bottom: 3;
+    height: 280;
+  }
+
+  .layer-selection-box{
+    padding: 1;
+    margin-bottom: 3;
+    height: 580;
+  }
+

@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    align-content: center;
+  }
+  
+  .button-grid {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 100%;
+  }

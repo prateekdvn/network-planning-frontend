@@ -1,0 +1,22 @@
+.form-group {
+    width: 100%;
+  }
+  
+  .checkbox-label {
+    margin-left: 1;
+  }
+  
+  .checkbox {
+    margin-left: 1;
+  }
+  
+  .checkbox-box {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .checkbox-text {
+    font-size: 14px;
+  }

@@ -14,10 +14,10 @@ const MapComponent = () => {
       target: mapElement.current,
       layers: [
         new TileLayer({
-          // source: new OSM(),
-          source: new XYZ({
-            url: 'https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}',
-          })
+          source: new OSM(),
+          // source: new XYZ({
+          //   url: 'https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}',
+          // })
         }),
       ],
       view: new View({
@@ -32,7 +32,7 @@ const MapComponent = () => {
       map.setTarget(null);
     };
   }, []); 
-  return (<Box ref={mapElement} sx={{width: '100vw', height: '85vh',zIndex: '-1'}}>
+  return (<Box ref={mapElement} className='MapComponent'>
   </Box>);
 };
 

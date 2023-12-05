@@ -1,0 +1,36 @@
+.app-bar {
+    background-color: blue;
+  }
+  
+  .logo {
+    width: 20%;
+    height: auto;
+  }
+  
+  .right-menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 5vh; */
+  }
+  
+  .language-icon {
+    cursor: pointer;
+  }
+  
+  .user-box {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .avatar {
+    margin-right: 1rem;
+  }
+  
+  .user-name {
+    padding: 1rem;
+  }
+
+  

@@ -2,3 +2,9 @@
     width: '100%';
     height: '92vh';
 }
+
+.MapComponent {
+    width: 100vw;
+    height: 89vh;
+    z-index: -1;
+  }

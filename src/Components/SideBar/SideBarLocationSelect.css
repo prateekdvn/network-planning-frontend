@@ -1,0 +1,13 @@
+.form-group {
+    width: 100%;
+  }
+  
+  .form-control {
+    width: 145px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+  
+  .input-label {
+    font-size: 13px;
+  }
