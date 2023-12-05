@@ -23,7 +23,7 @@ const MapComponent = () => {
       view: new View({
         projection: 'EPSG:4326',
         center: [79.218764, 20.527135],
-        zoom: 4.5,
+        zoom: 5.0,
       }),
       controls: []
     });

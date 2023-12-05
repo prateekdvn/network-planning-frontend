@@ -25,6 +25,7 @@ function SideBar() {
           </Box>
           <SideBarOfficeSelect />
         </Paper>
+        <br />
         <Paper variant="outlined" className='locartion-selection-box'>
           <Box sx={{ padding: 1, paddingBottom: 1 }}>
             <Grid container>
@@ -38,6 +39,7 @@ function SideBar() {
           </Box>
           <SideBarLocationSelect />
         </Paper>
+        <br />
         <Paper variant="outlined" className='layer-selection-box'>
           <Box sx={{ padding: 1, paddingBottom: 4 }}>
             <Typography className='layer-selection-typography'>Layer Selection</Typography>

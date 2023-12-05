@@ -10,12 +10,13 @@ export default function SideBarOfficeSelect() {
   };
 
   return (
-    <FormGroup className="form-group">
+    <FormGroup className="form-group" sx={{width: '100%'}}>
       <Grid container rowSpacing={1}>
         <Grid item>
-          <Grid container spacing={1}>
+          <Grid container spacing={3}>
+
             <Grid item>
-              <FormControl size="small" className="form-control">
+              <FormControl size="small" className="form-control" sx={{width: '160px'}}>
                 <InputLabel id="zonal-office" className="input-label">
                   Zonal Office
                 </InputLabel>
@@ -32,8 +33,9 @@ export default function SideBarOfficeSelect() {
                 </Select>
               </FormControl>
             </Grid>
+
             <Grid item>
-              <FormControl size="small" className="form-control">
+              <FormControl size="small" className="form-control" sx={{width: '160px'}}>
                 <InputLabel id="regional-office" className="input-label">
                   Regional Office
                 </InputLabel>
@@ -50,10 +52,11 @@ export default function SideBarOfficeSelect() {
                 </Select>
               </FormControl>
             </Grid>
+
           </Grid>
         </Grid>
         <Grid item>
-          <FormControl size="small" className="form-control">
+          <FormControl size="small" className="form-control" sx={{width: '160px'}}>
             <InputLabel id="dealer" className="input-label">
               Dealer
             </InputLabel>
